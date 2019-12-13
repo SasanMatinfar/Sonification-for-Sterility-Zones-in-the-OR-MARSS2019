@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Body.cpp" />
+    <ClCompile Include="BodyManager.cpp" />
+    <ClCompile Include="KinectManager.cpp" />
+    <ClCompile Include="Messenger.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="sterile.cpp" />
+    <ClCompile Include="TestDataReader.cpp" />
+    <ClCompile Include="Utilities.cpp" />
+    <ClCompile Include="Zone\Plane.cpp" />
+    <ClCompile Include="Zone\Sphere.cpp" />
+    <ClCompile Include="Zone\Zone.cpp" />
+    <ClCompile Include="Hand.cpp" />
+    <ClCompile Include="Sonification.cpp" />
+    <ClCompile Include="Visualization.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Body.h" />
+    <ClInclude Include="BodyManager.h" />
+    <ClInclude Include="KinectManager.h" />
+    <ClInclude Include="Messenger.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="TestDataReader.h" />
+    <ClInclude Include="Utilities.h" />
+    <ClInclude Include="Zone\Plane.h" />
+    <ClInclude Include="Zone\Sphere.h" />
+    <ClInclude Include="Zone\Zone.h" />
+    <ClInclude Include="Hand.h" />
+    <ClInclude Include="Sonification.h" />
+    <ClInclude Include="Visualization.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="sterile.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\content\**\*.*" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\content\**\*.*" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\content\**\*.*" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\content\**\*.*" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\content\**\*.*" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\content\**\*.*" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\content\**\*.*" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\content\**\*.*" />
+  </ItemGroup>
+</Project>
